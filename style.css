@@ -1,7 +1,7 @@
 :root{
-    --primary-color: rgb(227, 129, 223);
+    --primary-color: rgb(167, 82, 164);
     --secondary-color: rgb(152, 219, 255);
-    --tertiary-color: rgb(32, 54, 71);
+    --tertiary-color: rgb(231, 245, 255);
 }
 
 *{
@@ -10,6 +10,8 @@
     box-sizing: border-box;
 
     font-family: "Mulish", "Roboto", serif;
+
+    font-weight: 700;
 }
 
 body{
@@ -27,7 +29,7 @@ body{
 
     .icon {
         position: absolute;
-        font-size: 60px;
+        font-size: 10vw;
         color: var(--tertiary-color);
         opacity: 0.1;
         transition: transform 0.3s;
@@ -49,14 +51,14 @@ section{
 
     h1{
         color: var(--secondary-color);
-        font-size: 4vw;
+        font-size: 5vw;
         font-weight: 800;
         font-family: "Lexend", "Mulish", serif;
     }
 
     p{
         color: var(--tertiary-color);
-        font-size: 2.5vw;
+        font-size: 3vw;
         padding: 10px;
     }
 
@@ -66,7 +68,7 @@ section{
 
     a{
         color: var(--tertiary-color);
-        font-size: 1.5vw;
+        font-size: 2vw;
     }
 }
 
@@ -79,7 +81,7 @@ section{
 
     h2{
         color: var(--tertiary-color);
-        font-size: 2vw;
+        font-size: 3vw;
         font-weight: 800;
     }
 
@@ -98,12 +100,12 @@ section{
     
     h2{
         color: var(--tertiary-color);
-        font-size: 2vw;
+        font-size: 3vw;
         font-weight: 800;
     }
 
     i{
-        font-size: 13vw;
+        font-size: 15vw;
         color: var(--secondary-color);
     }
 }
