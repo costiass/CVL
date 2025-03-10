@@ -13,6 +13,118 @@
     <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Vina+Sans&display=swap" rel="stylesheet">
 
     <script src="https://kit.fontawesome.com/81b776e776.js" crossorigin="anonymous"></script>
+
+    <style>
+        :root{
+            --primary-color: rgb(227, 129, 223);
+            --secondary-color: rgb(152, 219, 255);
+            --tertiary-color: rgb(32, 54, 71);
+        }
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+            font-family: "Mulish", "Roboto", serif;
+        }
+
+        body{
+            background-color: var(--primary-color);
+        }
+
+        .icon-container {
+            z-index: -1;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+
+            .icon {
+                position: absolute;
+                font-size: 60px;
+                color: var(--tertiary-color);
+                opacity: 0.1;
+                transition: transform 0.3s;
+            }
+        }
+
+        section{
+            position: absolute;
+            width: 75vw;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+
+            transition: all 0.5s;
+
+            h1{
+                color: var(--secondary-color);
+                font-size: 4vw;
+                font-weight: 800;
+                font-family: "Lexend", "Mulish", serif;
+            }
+
+            p{
+                color: var(--tertiary-color);
+                font-size: 2.5vw;
+                padding: 10px;
+            }
+
+            strong{
+                color: var(--secondary-color);
+            }
+
+            a{
+                color: var(--tertiary-color);
+                font-size: 1.5vw;
+            }
+        }
+
+        .type1{
+            flex-direction: column;
+        }
+
+        .type2{
+            align-items: end;
+
+            h2{
+                color: var(--tertiary-color);
+                font-size: 2vw;
+                font-weight: 800;
+            }
+
+            img{
+                max-height: 75vh;
+            }
+        }
+
+        .type3{
+            align-items: start;
+            flex-direction: column;
+        }
+
+        .type4{
+            align-items: end;
+            
+            h2{
+                color: var(--tertiary-color);
+                font-size: 2vw;
+                font-weight: 800;
+            }
+
+            i{
+                font-size: 13vw;
+                color: var(--secondary-color);
+            }
+        }
+    </style>
 </head>
 <body>
     <div class="icon-container"></div>
