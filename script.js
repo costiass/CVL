@@ -24,5 +24,5 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     showSection(currentSection);
-    setInterval(nextSection, 2000);
+    setInterval(nextSection, 10000);
 });
