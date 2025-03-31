@@ -109,3 +109,21 @@ section{
         color: var(--secondary-color);
     }
 }
+
+
+.type5{
+    align-items: end;
+
+    i{
+        font-size: 15vw;
+        color: var(--secondary-color);
+    }
+
+    ul{
+        padding: 1em;
+        
+        li{
+            font-size: 1.5em;
+        }
+    }
+}
