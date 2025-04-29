@@ -59,7 +59,7 @@ section{
     p{
         color: var(--tertiary-color);
         font-size: 3vw;
-        padding: 10px;
+        padding-top: 10px;
     }
 
     strong{
