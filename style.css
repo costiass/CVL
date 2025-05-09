@@ -108,6 +108,11 @@ section{
         font-size: 15vw;
         color: var(--secondary-color);
     }
+
+    u{
+        font-weight: 800;
+        color: var(--secondary-color);
+    }
 }
 
 
